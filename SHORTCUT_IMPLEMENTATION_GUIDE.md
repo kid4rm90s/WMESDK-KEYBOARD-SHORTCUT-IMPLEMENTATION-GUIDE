@@ -4,7 +4,7 @@
 
 This guide documents how to implement **user-customizable keyboard shortcuts** in WME Tampermonkey scripts using the WME SDK.
 
-**Canonical reference:** [`WME-Shortcut-Demo.user.js`](WME-Shortcut-Demo.user.js) — a fully working script demonstrating all 4 patterns below. Use it as a copy-paste library.
+**Canonical reference:** [`WME-Shortcut-Demo.user.js`](https://github.com/kid4rm90s/WMESDK-PERSISTENT-KEYBOARD-SHORTCUT-GUIDE/raw/refs/heads/master/WME-Shortcut-Demo.user.js) — a fully working script demonstrating all 4 patterns below. Use it as a copy-paste library.
 
 ---
 
