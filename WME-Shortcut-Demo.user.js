@@ -2,7 +2,7 @@
 // @name         WME Keyboard Shortcut Demo - Unified Pattern
 // @namespace    https://github.com/kid4rm90s/WME-Shortcut-Demo
 // @version      2.1.0
-// @description  Reference implementation of user-customizable keyboard shortcuts using PIE-style unified pattern
+// @description  Reference implementation of user-customizable keyboard shortcuts using unified pattern
 // @author       kid4rm90s
 // @include      /^https:\/\/(www|beta)\.waze\.com\/(?!user\/)(.{2,6}\/)?editor.*$/
 // @exclude      https://www.waze.com/user/*editor/*
@@ -16,7 +16,7 @@
 /**
  * WME KEYBOARD SHORTCUT DEMO — Unified Pattern
  *
- * Uses the PIE-style data-driven approach:
+ * Uses the data-driven approach:
  * - Single _shortcutDefs array -> one registration loop
  * - No hardcoded default keys (null to avoid conflicts)
  * - {raw, combo} normalization for reliable persistence
@@ -39,7 +39,7 @@
   let wmeSDK = null;
 
   // ===================================================================
-  // PART 1: FORMAT CONVERTERS (PIE-style bidirectional system)
+  // PART 1: FORMAT CONVERTERS (bidirectional system)
   // ===================================================================
 
   const _KEYCODE_TO_CHAR = {
